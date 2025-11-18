@@ -117,3 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 exec zsh
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
